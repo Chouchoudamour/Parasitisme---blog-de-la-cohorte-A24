@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parasitisme, blog de la cohorte A24</title>
     <style>
+        body {
+            background-color: #d4edda; /* Vert relaxant */
+            font-family: 'Arial', sans-serif; /* Police par défaut */
+        }
+        h1 {
+            font-family: 'Georgia', serif; /* Belle police pour le titre */
+            color: #155724; /* Couleur du texte */
+            text-align: center;
+            margin-top: 20px;
+        }
+        .tab-buttons button {
+            font-family: 'Georgia', serif; /* Belle police pour les boutons */
+            background-color: #155724; /* Couleur de fond des boutons */
+            color: white; /* Couleur du texte des boutons */
+            border: none;
+            padding: 10px 20px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .tab-buttons button:hover {
+            background-color: #0b3d3b; /* Couleur de fond des boutons au survol */
+        }
         .tab {
             display: none;
         }
         .tab.active {
             display: block;
-        }
-        .tab-buttons button {
-            margin-right: 5px;
         }
         iframe {
             width: 100%;
