@@ -15,18 +15,13 @@
             text-align: center;
             margin-top: 20px;
         }
-        .tab-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
         .tab-buttons button {
             font-family: 'Georgia', serif; /* Belle police pour les boutons */
             background-color: #155724; /* Couleur de fond des boutons */
             color: white; /* Couleur du texte des boutons */
             border: none;
             padding: 10px 20px;
-            margin: 5px;
+            margin-right: 5px;
             cursor: pointer;
         }
         .tab-buttons button:hover {
@@ -40,7 +35,7 @@
         }
         iframe {
             width: 100%;
-            height: 100vh; /* Hauteur de la fenêtre */
+            height: 600px;
             border: none;
         }
     </style>
@@ -51,9 +46,6 @@
         <button onclick="showTab('tab1')">PDF 1</button>
         <button onclick="showTab('tab2')">PDF 2</button>
         <button onclick="showTab('tab3')">PDF 3</button>
-        <button onclick="showTab('tab4')">PDF 4</button>
-        <button onclick="showTab('tab5')">PDF 5</button>
-        <button onclick="showTab('tab6')">PDF 6</button>
     </div>
 
     <div id="tab1" class="tab active">
@@ -66,18 +58,6 @@
     </div>
     <div id="tab3" class="tab">
         <h2>PDF 3</h2>
-        <iframe src="https://drive.google.com/file/d/1eFcM7PIablQBqtbUXIaUBvTqyoZ_A9nR/preview"></iframe>
-    </div>
-    <div id="tab4" class="tab">
-        <h2>PDF 4</h2>
-        <iframe src="https://drive.google.com/file/d/1eFcM7PIablQBqtbUXIaUBvTqyoZ_A9nR/preview"></iframe>
-    </div>
-    <div id="tab5" class="tab">
-        <h2>PDF 5</h2>
-        <iframe src="https://drive.google.com/file/d/1eFcM7PIablQBqtbUXIaUBvTqyoZ_A9nR/preview"></iframe>
-    </div>
-    <div id="tab6" class="tab">
-        <h2>PDF 6</h2>
         <iframe src="https://drive.google.com/file/d/1eFcM7PIablQBqtbUXIaUBvTqyoZ_A9nR/preview"></iframe>
     </div>
 
