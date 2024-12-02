@@ -22,13 +22,18 @@
             font-size: 1.2em; /* Taille de police légèrement plus petite */
             margin-top: 10px;
         }
+        .tab-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         .tab-buttons button {
             font-family: 'Georgia', serif; /* Belle police pour les boutons */
             background-color: #155724; /* Couleur de fond des boutons */
             color: white; /* Couleur du texte des boutons */
             border: none;
             padding: 10px 20px;
-            margin-right: 5px;
+            margin: 5px;
             cursor: pointer;
         }
         .tab-buttons button:hover {
@@ -36,6 +41,7 @@
         }
         .tab {
             display: none;
+            text-align: left; /* Alignement à gauche */
         }
         .tab.active {
             display: block;
